@@ -1,12 +1,13 @@
 package servlets;
 
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+// md
 /**
  * Servlet implementation class EvenementServlet
  */
@@ -61,6 +62,7 @@ public class EvenementServlet extends HttpServlet {
 		String sponsor = request.getParameter("sponsor");
 		String stadeEvenement = request.getParameter("stadeEvenement");
 		String categorieEvent = request.getParameter("categorieEvent");
+		// string ssalut!
 	}
 
 }
