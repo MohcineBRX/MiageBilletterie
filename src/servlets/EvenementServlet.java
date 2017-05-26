@@ -63,6 +63,7 @@ public class EvenementServlet extends HttpServlet {
 		String stadeEvenement = request.getParameter("stadeEvenement");
 		String categorieEvent = request.getParameter("categorieEvent");
 		// string ssalut!
+		//salut c'est mohcine!
 	}
 
 }
