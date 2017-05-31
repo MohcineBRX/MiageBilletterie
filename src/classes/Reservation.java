@@ -1,5 +1,5 @@
 package classes;
-import utilitaire.*;
+import utilitaire.Date;
 
 public class Reservation {
 	private int idReserv;

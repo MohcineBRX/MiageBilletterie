@@ -1,7 +1,7 @@
 package classes;
-import utilitaire.*;
-
 import javax.xml.bind.annotation.XmlRootElement;
+
+import utilitaire.Adresse;
 
 @XmlRootElement(name = "stade")
 

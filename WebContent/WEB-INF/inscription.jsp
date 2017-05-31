@@ -31,10 +31,14 @@
                                         <input type="text" class="form-control" placeholder="Entrez votre prenom"
                                                name="prenom"></div>
                                     <div class="form-group"><label>Date naissance :</label>
-                                        <input type="text" class="form-control" placeholder="JJ/MM/AAAA"
-                                               name="dateNaissance"></div>
+                                        <input type="date" class="form-control" placeholder="JJ/MM/AAAA"
+                                               name="dateDeNaissance"></div>
                                     <div class="form-group"><label>Adresse mail :</label>
-                                        <input type="text" class="form-control" placeholder="Entrez votre adresse mail" name="email"></div>
+                                        <input type="text" class="form-control" placeholder="Entrez votre adresse mail" name="email">
+                                    </div>
+                                    <div class="form-group"><label>Pseudo :</label>
+                                        <input type="text" class="form-control" placeholder="Pseudo" name="pseudo">
+                                    </div>                                        
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -44,7 +48,7 @@
 
                                     <div class="form-group">
                                         <label>code postale:</label>
-                                        <input type="text" class="form-control" placeholder="Entrez votre code postale" name="codePostale">
+                                        <input type="number" class="form-control" placeholder="Entrez votre code postale" name="codePostale">
                                     </div>
 
                                     <div class="form-group">
@@ -53,6 +57,9 @@
                                     </div>
                                     <div class="form-group"><label>Telephone :</label>
                                         <input type="tel" class="form-control" placeholder="Telephone" name="telephone">
+                                    </div>
+                                    <div class="form-group"><label>Mot de passe :</label>
+                                        <input type="password" class="form-control" placeholder="mot de passe" name="mdp">
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 package classes;
-import utilitaire.*;
+import utilitaire.Adresse;
+import utilitaire.Date;
 
 public class InscriptionBean {
 	String nom;

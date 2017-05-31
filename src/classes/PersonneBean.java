@@ -6,12 +6,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name="personne")
-@XmlType(propOrder={"nom", "prenom", "dteNaissance", "adresse", "codePostal", "ville", "phone", "email", "pwd" })
-public class Personne {
-	private String id, nom, prenom, dteNaissance, adresse, ville, codePostal, phone, email, pwd;
+@XmlType(propOrder={"nom", "prenom", "dteNaissance", "adresse", "codePostal", "ville", "phone", "email", "pseudo", "pwd" })
+public class PersonneBean {
+	private String id, nom, prenom, dteNaissance, adresse, ville, codePostal, phone, email, pseudo, pwd;
 	
-	public Personne(String id, String nom, String prenom, String dteNaissance, String adresse, String ville,
-			String codePostal, String phone, String email, String pwd) {
+	public PersonneBean(String id, String nom, String prenom, String dteNaissance, String adresse, String ville,
+			String codePostal, String phone, String email, String pseudo, String pwd) {
 		super();
 		this.id = id;
 		this.nom = nom;
@@ -23,9 +23,10 @@ public class Personne {
 		this.phone = phone;
 		this.email = email;
 		this.pwd = pwd;
+		this.pseudo = pseudo;
 	}
 	
-	public Personne() {
+	public PersonneBean() {
 		super();
 	}
 
@@ -119,5 +120,14 @@ public class Personne {
 
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
+	} 
+	
+	@XmlElement(name="pseudo")
+	public String getPseudo() {
+		return pwd;
+	}
+
+	public void setPseudo(String pseudo) {
+		this.pseudo = pseudo;
 	} 
 }

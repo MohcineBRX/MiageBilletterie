@@ -39,6 +39,9 @@ public class EvenementServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//Mon test perdo
+		
+		
 		// TODO Auto-generated method stub
 		//Informations relatives à l'identité
 		String idEvenement = request.getParameter("idEvenement");
@@ -62,6 +65,7 @@ public class EvenementServlet extends HttpServlet {
 		String sponsor = request.getParameter("sponsor");
 		String stadeEvenement = request.getParameter("stadeEvenement");
 		String categorieEvent = request.getParameter("categorieEvent");
+		
 	}
 
 }
